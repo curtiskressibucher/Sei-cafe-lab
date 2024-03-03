@@ -1,4 +1,4 @@
-import './MenuListItem.css';
+import "./MenuListItem.css";
 
 export default function MenuListItem({ menuItem }) {
   return (
@@ -7,7 +7,7 @@ export default function MenuListItem({ menuItem }) {
       <div className="name">{menuItem.name}</div>
       <div className="buy">
         <span>${menuItem.price.toFixed(2)}</span>
-        <button className="btn-sm" onClick={() => console.log('clicked')}>
+        <button className="btn-sm" onClick={() => console.log("clicked")}>
           ADD
         </button>
       </div>
